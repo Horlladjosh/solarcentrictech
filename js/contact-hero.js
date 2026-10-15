@@ -14,13 +14,13 @@
   };
   if (reduced) { reveal(); return; }
   const started = performance.now();
+  let headingStartedAt;
   const check = () => {
+    const now = performance.now();
     const style = getComputedStyle(heading);
-    let settled = style.transform === 'none';
-    try { settled ||= new DOMMatrixReadOnly(style.transform).isIdentity; } catch {}
-    if ((Number(style.opacity) >= 0.999 && settled) || performance.now() - started > 6000) {
-      reveal();
-    } else { requestAnimationFrame(check); }
+    if (headingStartedAt === undefined && Number(style.opacity) > 0) headingStartedAt = now;
+    if ((headingStartedAt !== undefined && now - headingStartedAt >= 1750) || now - started > 6000) reveal();
+    else requestAnimationFrame(check);
   };
   requestAnimationFrame(check);
 })();
