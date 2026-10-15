@@ -1,0 +1,8 @@
+{
+  "name": "solarcentric-contact",
+  "main": "index.mjs",
+  "compatibility_date": "2026-10-15",
+  "workers_dev": false,
+  "routes": [{ "pattern": "solarcentrictech.com/api/contact*", "zone_name": "solarcentrictech.com" }],
+  "send_email": [{ "name": "EMAIL", "destination_address": "triplefourmedia@gmail.com" }]
+}
