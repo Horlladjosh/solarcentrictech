@@ -1,16 +1,20 @@
 # Solarcentric Technologies
 
-Static website exported from Webflow.
+Static website exported from Webflow, hosted on Cloudflare Pages at
+https://solarcentrictech.com.
 
 ## Cloudflare Pages
-
-Connect this repository through Cloudflare Pages Git integration:
 
 - Production branch: `main`
 - Framework preset: None
 - Build command: leave blank
 - Build output directory: `/`
 
-The contact form currently retains Webflow's exported behavior. Configure a Cloudflare backend before accepting submissions.
+Push changes to `main` to trigger automatic deployment. Cloudflare Web Analytics
+is enabled through the Pages dashboard.
 
-To update the site, replace the exported HTML, CSS, JavaScript and images, then push to `main`.
+## Contact page
+
+The contact page provides direct email, telephone and Google Maps links. It does
+not collect form submissions or require an email Worker, API key or Turnstile.
+Its page-specific styling is in `css/contact.css`.
