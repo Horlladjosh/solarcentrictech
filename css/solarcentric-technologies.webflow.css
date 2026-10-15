@@ -2508,3 +2508,5 @@ a:focus-visible, [role=button]:focus-visible, .menu-button:focus-visible { outli
 .skip-link:focus { top: 12px; }
 @media screen and (max-width: 991px) { .nav-link.w--current { color: #233857; } }
 @media (prefers-reduced-motion: reduce) { .header .h1 { transform: none !important; opacity: 1 !important; } }
+
+img:not(.hero-visual) { height: auto; }
