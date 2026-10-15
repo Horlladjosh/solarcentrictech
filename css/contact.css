@@ -1,32 +1,17 @@
-.direct-contact{padding:100px 30px 110px;background:#fff;color:#233857;font-family:'Libre Franklin',sans-serif}
+/* Direct contact layout using the site's existing fonts and colours. */
+.direct-contact-intro{color:#fff;font-family:'Libre Franklin',sans-serif;font-size:16px;line-height:1.7;margin:0}
+.direct-contact{padding:64px 30px 72px;background:#fff;color:#000;font-family:'Libre Franklin',sans-serif}
 .direct-contact-inner{max-width:1170px;margin:0 auto}
-.direct-contact-heading{max-width:750px;margin:0 auto 72px;text-align:center}
-.direct-contact-heading h2{margin:0 0 24px;color:#233857;font-size:clamp(36px,4.5vw,58px);font-weight:600;line-height:1.12;letter-spacing:-1.8px}
-.direct-contact-heading>p{max-width:540px;margin:0 auto;color:#606a77;font-size:17px;line-height:1.8}
-.direct-contact-options{display:grid;grid-template-columns:1.2fr 1fr 1fr}
-.direct-contact-option{min-width:0;display:flex;flex-direction:column;align-items:center;padding:8px 28px 12px;text-align:center;text-decoration:none;color:#233857;border-left:1px solid #dfe3e8;transition:color .2s}
+.direct-contact-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+.direct-contact-option{min-width:0;display:flex;flex-direction:column;align-items:center;padding:36px 24px 40px;text-align:center;text-decoration:none;color:#000;border-left:1px solid #e6e6e6}
 .direct-contact-option:first-child{border-left:0}
-.direct-contact-icon{width:58px;height:58px;margin-bottom:28px;color:#d98f00;transition:transform .2s}
-.direct-contact-option h3{margin:0 0 16px;font-size:21px;line-height:1.3;font-weight:600;color:inherit}
-.direct-contact-value{margin:0;font-family:Lato,sans-serif;font-size:19px;font-weight:400;line-height:1.6;overflow-wrap:anywhere;color:inherit}
-.direct-contact-note{margin:12px 0 0;color:#737b86;font-family:Lato,sans-serif;font-size:15px;line-height:1.6}
-.direct-contact-option:hover{color:#a96900}
+.direct-contact-icon{width:60px;height:60px;margin-bottom:28px;color:#ffad01;transition:transform .2s}
+.direct-contact-option h3{margin:0 0 18px;font-size:20px;line-height:1.5;font-weight:600;color:#000}
+.direct-contact-value{margin:0;font-size:16px;font-weight:600;line-height:1.5;overflow-wrap:anywhere;color:#233857}
+.direct-contact-note{max-width:270px;min-height:48px;margin:0 0 20px;color:#777;font-size:16px;line-height:1.5}
+.direct-contact-option:hover .direct-contact-value{color:#ffad01;text-decoration:underline;text-underline-offset:4px}
 .direct-contact-option:hover .direct-contact-icon{transform:translateY(-4px)}
 .direct-contact-option:focus-visible{outline:3px solid #ffad01;outline-offset:6px;border-radius:2px}
-@media(max-width:991px){.direct-contact{padding:76px 24px 84px}.direct-contact-option{padding-left:18px;padding-right:18px}.direct-contact-value{font-size:17px}.direct-contact-heading{margin-bottom:56px}}
-@media(max-width:700px){.direct-contact{padding:60px 24px 64px}.direct-contact-heading{margin-bottom:38px}.direct-contact-heading h2{letter-spacing:-1px}.direct-contact-heading>p{font-size:16px;line-height:1.7}.direct-contact-options{grid-template-columns:1fr}.direct-contact-option{border-left:0;border-top:1px solid #dfe3e8;padding:32px 0}.direct-contact-option:first-child{border-top:0;padding-top:8px}.direct-contact-option:last-child{padding-bottom:0}.direct-contact-icon{width:52px;height:52px;margin-bottom:18px}.direct-contact-option h3{margin-bottom:10px}.direct-contact-value{font-size:19px}.direct-contact-note{margin-top:8px}}
-@media(prefers-reduced-motion:reduce){.direct-contact-option,.direct-contact-icon{transition:none}.direct-contact-option:hover .direct-contact-icon{transform:none}}
-/* Contact reference: image hero, three equal contact columns, then map. */
-.header.is-contact.direct-contact-hero{height:auto;min-height:560px;padding:170px 24px 100px;background-image:linear-gradient(#13263bb3,#13263bb3),url('../images/quino-al-xhGMQ_nYWqU-unsplash.webp');background-position:center;}
-.direct-contact-hero .h1{font-size:clamp(38px,4.8vw,64px);line-height:1.12;color:#ffad01;letter-spacing:-1.5px;margin-bottom:26px}
-.direct-contact-intro{font-family:Lato,sans-serif;font-size:20px;line-height:1.7;color:#fff;margin:0}
-.direct-contact{padding:64px 30px 72px}
-.direct-contact-options{grid-template-columns:repeat(3,minmax(0,1fr))}
-.direct-contact-option{padding:36px 24px 40px}
-.direct-contact-option h3{font-size:18px;letter-spacing:.5px;text-transform:uppercase;color:#606a77;margin-bottom:18px}
-.direct-contact-icon{width:60px;height:60px;color:#d98f00;margin-bottom:28px}
-.direct-contact-note{margin:0 0 20px;max-width:240px;min-height:48px;font-size:16px}
-.direct-contact-value{font-size:18px;font-weight:700;color:#996000;line-height:1.6}
-.direct-contact-option:hover .direct-contact-value{text-decoration:underline;text-underline-offset:4px}
-@media(max-width:991px){.direct-contact-option{padding-left:18px;padding-right:18px}.direct-contact-value{font-size:16px}}
-@media(max-width:700px){.header.is-contact.direct-contact-hero{min-height:440px;padding:140px 24px 70px}.direct-contact-hero .h1{letter-spacing:-1px}.direct-contact-intro{font-size:17px}.direct-contact{padding:28px 24px 44px}.direct-contact-options{grid-template-columns:1fr}.direct-contact-option,.direct-contact-option:first-child,.direct-contact-option:last-child{padding:32px 8px}.direct-contact-icon{width:54px;height:54px;margin-bottom:20px}.direct-contact-note{min-height:0;margin-bottom:14px}.direct-contact-value{font-size:18px}}
+@media(max-width:991px){.direct-contact-option{padding-left:18px;padding-right:18px}}
+@media(max-width:700px){.direct-contact{padding:28px 24px 44px}.direct-contact-options{grid-template-columns:1fr}.direct-contact-option{border-left:0;border-top:1px solid #e6e6e6;padding:32px 8px}.direct-contact-option:first-child{border-top:0}.direct-contact-icon{width:54px;height:54px;margin-bottom:20px}.direct-contact-note{min-height:0;margin-bottom:14px}}
+@media(prefers-reduced-motion:reduce){.direct-contact-icon{transition:none}.direct-contact-option:hover .direct-contact-icon{transform:none}}
