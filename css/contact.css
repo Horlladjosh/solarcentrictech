@@ -15,3 +15,14 @@
 @media(max-width:991px){.direct-contact-option{padding-left:18px;padding-right:18px}}
 @media(max-width:700px){.direct-contact{padding:28px 24px 44px}.direct-contact-options{grid-template-columns:1fr}.direct-contact-option{border-left:0;border-top:1px solid #e6e6e6;padding:32px 8px}.direct-contact-option:first-child{border-top:0}.direct-contact-icon{width:54px;height:54px;margin-bottom:20px}.direct-contact-note{min-height:0;margin-bottom:14px}}
 @media(prefers-reduced-motion:reduce){.direct-contact-icon{transition:none}.direct-contact-option:hover .direct-contact-icon{transform:none}}
+
+/* Centre the heading itself; supporting text sits below without shifting it up. */
+.direct-contact-hero .header-content { position: relative; width: 100%; }
+.direct-contact-hero .h1 { margin-bottom: 0; }
+.direct-contact-hero .direct-contact-intro { position: absolute; top: calc(100% + 28px); left: 0; right: 0; }
+@media screen and (max-width: 479px) {
+  .direct-contact-hero .direct-contact-intro { top: calc(100% + 22px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .direct-contact-hero .h1 { transform: none !important; opacity: 1 !important; }
+}
