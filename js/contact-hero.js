@@ -9,7 +9,7 @@
     revealed = true;
     subtext.style.opacity = '1';
     if (!reduced && subtext.animate) {
-      subtext.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 600, easing: 'ease-out' });
+      subtext.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 200, easing: 'ease-out' });
     }
   };
   if (reduced) { reveal(); return; }
