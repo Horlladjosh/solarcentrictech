@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /style-guide
+Disallow: /style-guide.html
+
+Sitemap: https://solarcentrictech.com/sitemap.xml

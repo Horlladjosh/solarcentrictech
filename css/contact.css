@@ -6,10 +6,10 @@
 .direct-contact-option{min-width:0;display:flex;flex-direction:column;align-items:center;padding:36px 24px 40px;text-align:center;text-decoration:none;color:#000;border-left:1px solid #e6e6e6}
 .direct-contact-option:first-child{border-left:0}
 .direct-contact-icon{width:60px;height:60px;margin-bottom:28px;color:#ffad01;transition:transform .2s}
-.direct-contact-option h3{margin:0 0 18px;font-size:20px;line-height:1.5;font-weight:600;color:#000}
+.direct-contact-option h2{margin:0 0 18px;font-size:20px;line-height:1.5;font-weight:600;color:#000}
 .direct-contact-value{margin:0;font-size:16px;font-weight:600;line-height:1.5;overflow-wrap:anywhere;color:#233857}
-.direct-contact-note{max-width:270px;min-height:48px;margin:0 0 20px;color:#777;font-size:16px;line-height:1.5}
-.direct-contact-option:hover .direct-contact-value{color:#ffad01;text-decoration:underline;text-underline-offset:4px}
+.direct-contact-note{max-width:270px;min-height:48px;margin:0 0 20px;color:#233857;font-size:16px;line-height:1.5}
+.direct-contact-option:hover .direct-contact-value{color:#233857;text-decoration:underline;text-underline-offset:4px}
 .direct-contact-option:hover .direct-contact-icon{transform:translateY(-4px)}
 .direct-contact-option:focus-visible{outline:3px solid #ffad01;outline-offset:6px;border-radius:2px}
 @media(max-width:991px){.direct-contact-option{padding-left:18px;padding-right:18px}}

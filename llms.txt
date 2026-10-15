@@ -1,0 +1,16 @@
+# Solarcentric Technologies
+
+> Solarcentric Technologies develops energy and smart infrastructure projects in Nigeria.
+
+## Company
+- [Home](https://solarcentrictech.com/): Solar power, battery storage and infrastructure solutions.
+- [About](https://solarcentrictech.com/about): Company background, vision, mission and team.
+- [Services](https://solarcentrictech.com/services): Solar PV, hybrid power, energy storage, mini-grids, energy efficiency, EPC and managed services.
+- [Contact](https://solarcentrictech.com/contact): Project enquiries, quotations and consultations.
+
+## Contact details
+Email: contactus@solarcentrictech.com
+Phone: +234 805 900 0866
+Office: 12 Adeyemo Alakija Street, Ikeja GRA, Lagos, Nigeria.
+
+This is an informational business website. It does not offer an autonomous agent, MCP server, public transaction API or online quote submission endpoint. Contact the team directly for project-specific advice and pricing.
