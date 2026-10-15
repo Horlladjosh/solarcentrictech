@@ -2481,8 +2481,11 @@ figcaption {
 /* Shared hero treatment and balanced vertical centring across all four pages. */
 .header { height: 720px; min-height: 720px; padding-top: 120px; padding-bottom: 120px; }
 .header .h1 { color: #fff; }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .header { height: 624px; min-height: 624px; padding-top: 100px; padding-bottom: 100px; }
+}
 @media screen and (max-width: 767px) {
-  .header { height: 600px; min-height: 600px; padding-top: 90px; padding-bottom: 90px; }
+  .header { height: 504px; min-height: 504px; padding-top: 72px; padding-bottom: 72px; }
 }
 
 .header-content > .h1:last-child { margin-bottom: 0; }
