@@ -26,3 +26,6 @@
 @media (prefers-reduced-motion: reduce) {
   .direct-contact-hero .h1 { transform: none !important; opacity: 1 !important; }
 }
+
+.w-mod-js .direct-contact-intro { opacity: 0; }
+@media (prefers-reduced-motion: reduce) { .w-mod-js .direct-contact-intro { opacity: 1 !important; } }
